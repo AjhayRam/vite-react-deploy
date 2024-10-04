@@ -7,7 +7,7 @@ import {BrowserRouter, Routes, Route} from "react";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 <React.StrictMode>
-    <BrowserRouter basename ="/vite-react-deploy/">
+    <BrowserRouter basename = {import.meta.env.BASE_URL}>
         <Routes>
             < Route path="*" element={<App />} />
         </Routes>
