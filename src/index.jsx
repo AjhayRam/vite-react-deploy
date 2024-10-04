@@ -3,6 +3,7 @@ import { RouterProvider } from "react-router-dom";
 import "./index.css";
 import ReactDOM from "react-dom/client";
 import appRouter from "./routes/routes";
+import {BrowserRouter, Routes, Route} from "react";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 <React.StrictMode>
