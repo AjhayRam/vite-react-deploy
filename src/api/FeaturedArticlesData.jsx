@@ -1,7 +1,7 @@
 const FeaturedArticlesData = [
   {
     id: 1,
-    imageSrc: "/article1.jpg",
+    imageSrc: "https://ik.imagekit.io/n097hdowm/article1.jpg?updatedAt=1728140627076",
     title: "Meet Groq: The Lightning-Fast AI Chip That's Changing the Game",
     subtitle:
       "Groq isn't just about raw performance – it's also about unlocking new possibilities for real-time communication with AI chatbots.",
@@ -9,7 +9,7 @@ const FeaturedArticlesData = [
   },
   {
     id: 2,
-    imageSrc: "/article2.jpg",
+    imageSrc: "https://ik.imagekit.io/n097hdowm/article2.jpg?updatedAt=1728140627590",
     title:
       "Secure Your Loved Ones' Future: The Ultimate Guide to Life Insurance",
     subtitle:

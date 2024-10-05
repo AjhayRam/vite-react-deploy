@@ -1,7 +1,8 @@
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 import { Outlet } from "react-router-dom";
-
+import Home from "../pages/Home";
+import About from "../components/About/About";
 const AppLayout = () => {
   //state variable
   // const [count, setCount] = useState(0);
@@ -16,6 +17,8 @@ const AppLayout = () => {
   return (
     <>
       <Header />
+      <Home/>
+      
       <Outlet />
       <Footer />
     </>
